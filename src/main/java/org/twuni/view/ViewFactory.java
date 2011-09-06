@@ -4,8 +4,8 @@ import java.util.Map;
 
 public interface ViewFactory {
 
-	public String createView( String name );
+	public View createView( String name );
 
-	public String createView( String name, Map<String, ?> model );
+	public View createView( String name, Map<String, ?> model );
 
 }
